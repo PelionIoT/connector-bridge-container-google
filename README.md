@@ -53,13 +53,19 @@ Enter each of application name value, auth json value, and Connector API Token
 
 Your GoogleCloud-Connector bridge should now be configured and operational. 
 
-For your mbed endpoint, you can clone and build (via mbed-cli) this: https://github.com/ARMmbed/mbed-ethernet-sample
+For your mbed endpoint, you can clone and build (via mbed-cli) this: https://github.com/ARMmbed/mbed-ethernet-sample-withdm
 
     - This sample assumes you are using the NXP K64F + mbed Application Shield
 
+Additionally, a Google Cloud PubSub example has been published here:
+
+    - https://github.com/ARMmbed/GoogleCloudConnectorExerciser
+
+This sample provide an example on how, from within Google Cloud, you can read and react to events and telemetry via the bridge.
+
 Enjoy!
 
-Copyright 2015. ARM Ltd. All rights reserved.
+Copyright 2017. ARM Ltd. All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
