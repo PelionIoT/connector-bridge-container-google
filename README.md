@@ -2,6 +2,8 @@ mbed Device Connector integration bridge image importer for Google Cloud PubSub
 
 Original Date: January 26, 2017
 
+5/3/2017: Updated with the latest bridge.
+
 4/26/2017: Updated with the latest bridge (patches for R1.2 GA)
 
 1/26/2017: Initial checkin
