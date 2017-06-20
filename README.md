@@ -1,27 +1,12 @@
 mbed Device Connector integration bridge image importer for Google Cloud PubSub 
 
-Original Date: January 26, 2017
-
-5/3/2017: Updated with the latest bridge.
-
-4/26/2017: Updated with the latest bridge (patches for R1.2 GA)
-
-1/26/2017: Initial checkin
-
-Container Bridge source (Apache 2.0 licensed - Enjoy!): https://github.com/ARMmbed/connector-bridge.git
+6/20/2017: Cleanups, updates to properties editor and overall structure
 
 Container Bridge Instance Installation:
 
 1). Clone this repo into a Linux instance that supports docker images
 
 2). cd into the cloned repo and run: ./run-reload-bridge.sh
-
-
-If Starting on a Docker instance: 
-
-3). Note the public IP address of your linux runtime - update "start-bridge.sh" and replace "192.168.1.230" with yours
-
-4). invoke: ./start-bridge.sh
 
 Once the container instance is live, you must configure the bridge and bind it between your mbed Connector account and your PubSub Service in Google Cloud
 
@@ -55,11 +40,7 @@ Enter each of application name value, auth json value, and Connector API Token
 
     - Once entered, press "Restart" to restart the bridge
 
-Your GoogleCloud-Connector bridge should now be configured and operational. 
-
-For your mbed endpoint, you can clone and build (via mbed-cli) this: https://github.com/ARMmbed/mbed-ethernet-sample-withdm
-
-    - This sample assumes you are using the NXP K64F + mbed Application Shield
+Your Connector bridge should now be configured and operational. 
 
 Additionally, a Google Cloud PubSub example has been published here:
 
@@ -67,7 +48,7 @@ Additionally, a Google Cloud PubSub example has been published here:
 
 This sample provide an example on how, from within Google Cloud, you can read and react to events and telemetry via the bridge.
 
-Enjoy!
+Container Bridge source (Apache 2.0 licensed - Enjoy!): https://github.com/ARMmbed/connector-bridge.git
 
 Copyright 2017. ARM Ltd. All rights reserved.
 
