@@ -1,5 +1,7 @@
 mbed Device Connector integration bridge image importer for Google Cloud PubSub 
 
+7/12/2017: updated bridge with configurable thread executor sizing parameters.
+
 7/10/2017: minor fix in location of the default keytore.jks file. Updated Bridge
 
 6/29/2017: property editor updates 
