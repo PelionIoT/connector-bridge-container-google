@@ -1,5 +1,7 @@
 mbed Device Connector integration bridge image importer for Google Cloud PubSub 
 
+9/29/2017: updated bridge - AWS/IoTHub fixes.
+
 7/19/2017: updated bridge
 
 7/12/2017: updated bridge with configurable thread executor sizing parameters.
