@@ -1,5 +1,7 @@
 mbed Device Connector integration bridge image importer for Google Cloud PubSub 
 
+01/18/2018: updated bridge - matched semantics of device removal with mbed Cloud API 
+
 01/17/2018: updated bridge - Google API updates and fixes for latest mbed Cloud API
 
 12/05/2017: updated bridge - Google and logging fixes/updates.
