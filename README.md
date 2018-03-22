@@ -1,4 +1,8 @@
-mbed Device Connector integration bridge image importer for Google Cloud PubSub 
+mbed Device Connector/mbed Cloud integration bridge for Google Cloud IoT 
+
+03/22/2018: updated bridge - New Google integration functional now. Additional minor bridge updates.
+
+03/20/2018: updated bridge - significant updates for MQTT TLS support and new Google integration paradigm
 
 02/09/2018: updated bridge - fixes for GET CoAP processing requests
 
